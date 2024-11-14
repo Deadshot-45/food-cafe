@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Serif', serif;
     margin: 0;
     padding: 0;
 }
@@ -15,10 +15,7 @@ body{
     width: 100%;
     height: 72dvh;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    color: #fff;
     /* top: 12dvh; */
     background: linear-gradient(90deg , #b5838c 50%, #ffcdb2 50%);
 }
@@ -95,66 +92,23 @@ body{
     color: aliceblue;
 }
 
-.page-top{
-    width: 100%;
-    height: 70dvh;
+.top-content-head{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute; /* Ensure it covers the parent */
-    left: 0; /* Add left to ensure it starts from the left edge */
-    z-index: 1;
-    top: 0;
-}
-
-.page-top-left-container{
-    width: 50%;
-    height: 100%;
-    display: flex;
     flex-direction: column;
-    gap: 10px;
-    /* border: 2px solid red; */
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    gap: 20px;
 }
 
-.page-top-right-container{
-    width: 25%;
-    height: 100%;
-    /* border: 2px solid red; */
+.top-content-contact{
+    font-size: 4rem;
 }
 
-.page-top-left-container-body h3{
-    width: 60%;
-    font-size: 2rem;
-}
-
-.page-top-left-container-body h1{
-    font-size: 7.0rem;
-    /* line-height: 1.5; */
-}
-
-.page-top-left-container-body a input{
-    width: 20%;
-    height: 60px;
-    font-size: 1.5rem;
-    color: #fff;
-    border: 2px solid #fff;
-    background: transparent;
-}
-
-.page-top-left-container-head{
-    height: 15%;
-}
-
-.page-top-left-container-body{
-    height: auto;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.page-top-left-container-body .border{
-    width: 20%;
+.top-content-border{
+    width: 30%;
     height: 5px;
     background: #fff;
 }
@@ -179,6 +133,7 @@ body{
     align-items: center;
     position: relative;
     gap: 35px;
+    margin-bottom: 80px;
     /* border: 2px solid red; */
 }
 
@@ -266,6 +221,117 @@ body{
     width: 100%;
     height: 2px;
     background-color: #a7a7a7;
+}
+
+.container-02{
+    width: 100%;
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6e6876;
+    /* border: 2px solid red; */
+}
+
+form{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container-02-border-top{
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+}
+
+.form-content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.form-content-left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+
+.form-content-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+}
+
+.form-content-left-heading{
+    font-size: 5rem;
+    line-height: 1.3em;
+}
+
+.form-content-left-border{
+    width: 25%;
+    height: 6px;
+    left: 0;
+    background-color: #fff;
+}
+
+.form-content-left-para{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.form-content-right-name-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-name, #last-name{
+    width: 49%;
+    height: 50px;
+}
+
+.form-content-right-email, .form-content-right-message{
+    display: flex;
+    flex-direction: column;
+}
+
+#email{
+    width: 100%;
+    height: 60px;
+}
+
+.send-button{
+    width: 6dvw;
+    height: 60px;
+    color: #fff;
+    font-size: 1.3rem;
+    word-spacing: 1.5;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.send-button:hover{
+    background-color: #facdb2;
+    color: #4e4e4e;
+    border: none;
 }
 
 
