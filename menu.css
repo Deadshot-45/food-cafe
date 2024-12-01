@@ -68,6 +68,12 @@ body {
     font-size: 1.2rem;
 }
 
+.nav-card2 ul li a:hover{
+    cursor: pointer;
+    color: aliceblue;
+    border-bottom: 2px solid aliceblue;
+}
+
 
 .top-content {
     width: 100%;

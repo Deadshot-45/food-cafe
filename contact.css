@@ -38,6 +38,7 @@ body{
     align-items: center;
     position: absolute;
     top: 0;
+    left: 2%;
     z-index: 1;
 }
 
@@ -90,6 +91,7 @@ body{
 .nav-card2 ul li a:hover{
     cursor: pointer;
     color: aliceblue;
+    border-bottom: 2px solid aliceblue;
 }
 
 .top-content-head{

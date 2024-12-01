@@ -87,9 +87,10 @@ body{
     animation: 0.6s ease-in-out;
 }
 
-.nav-card2 ul li a:hover {
+.nav-card2 ul li a:hover{
     cursor: pointer;
     color: aliceblue;
+    border-bottom: 2px solid aliceblue;
 }
 
 .page-top{
